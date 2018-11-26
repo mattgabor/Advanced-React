@@ -1,4 +1,5 @@
 {
+  "parser": "babel-eslint",
   "extends": "airbnb",
   "plugins": [
     "react",
@@ -13,7 +14,9 @@
     "jsx-a11y/anchor-is-valid": 0,
     "import/prefer-default-export": 0,
     "react/react-in-jsx-scope": 0,
-    "no-unused-expressions": ["error", {"allowTaggedTemplates": true }]
+    "no-unused-expressions": ["error", {
+      "allowTaggedTemplates": true
+    }]
   },
   "env": {
     "browser": true,
